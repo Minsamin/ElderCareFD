@@ -24,6 +24,9 @@ query FoodSearchQuery($searchCriteria : FoodmenuSearchCriteriaInput) {
 # Samin 1
 # Samin 1
 
+
+# Samin 1 NEW ONE
+
 #fragment PeopleFragment on Query {
 #    __typename
 #    foodmenuSearch {
