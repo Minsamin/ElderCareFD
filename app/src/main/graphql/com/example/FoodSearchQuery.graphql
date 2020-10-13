@@ -21,6 +21,9 @@ query FoodSearchQuery($searchCriteria : FoodmenuSearchCriteriaInput) {
 # riktam here 2
 # riktam here 2
 
+# Samin 1
+# Samin 1
+
 #fragment PeopleFragment on Query {
 #    __typename
 #    foodmenuSearch {
