@@ -18,8 +18,8 @@ query FoodSearchQuery($searchCriteria : FoodmenuSearchCriteriaInput) {
 #        description
 #    }
 #}
-# riktam here
-# riktam here
+# riktam here 2
+# riktam here 2
 
 #fragment PeopleFragment on Query {
 #    __typename
