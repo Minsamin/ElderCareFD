@@ -98,10 +98,12 @@ public class Activity4 extends AppCompatActivity {
             @Override
             public void onFailure(@NotNull ApolloException e) {
                 Log.e(TAG, Objects.requireNonNull(e.getMessage()));
-                Log.e(TAG, e.getLocalizedMessage());
-                Log.e(TAG, e.toString());
-                Log.e(TAG, Arrays.toString(e.getStackTrace()));
-                Log.e(TAG, e.getMessage(), e);
+                Log.e(TAG, "Testing Commit with new Branch ( Samin )");
+
+                //Log.e(TAG, e.getLocalizedMessage());
+                //Log.e(TAG, e.toString());
+                //Log.e(TAG, Arrays.toString(e.getStackTrace()));
+                //Log.e(TAG, e.getMessage(), e);
             }
         });
         /*
