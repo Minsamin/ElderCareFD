@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    tools:context=".Activity7"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center_vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="#51D6DCFF">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add More+"
+            android:background="@drawable/rounded_corners"
+            android:id="@+id/buttonAddMore2"
+            />
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:background="@drawable/rounded_corners"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textback"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:textSize="30sp" />
+</LinearLayout>
